@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="protfolio.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <div class="about-container">
+                <img src="profile.jpg.png" alt="Profile Photo" class="profile-img">
+                <div class="about-content">
+                    <h1>Hello, I'm HAREESH</h1>
+                    <ul class="personal-details">
+                        <li><strong>Email:</strong> bagayithiharish@gmail.com</li>
+                        <li><strong>Phone:</strong> +91-9346315298</li>
+                        <li><strong>Location:</strong> Hyderabad, India</li>
+                        <li><strong>Date of Birth:</strong> 04 May 2004</li>
+                    </ul>
+                    <p>Welcome to my dynamic portfolio! I'm a passionate developer eager to build amazing things. Connect with me on LinkedIn below.</p>
+                    <a href="https://www.linkedin.com/in/hareesh-bagayiti-22b33b34b" target="_blank" class="linkedin-btn">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-container" id="projects-container">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+            <div class="add-project-form">
+                <h3>Add a Project</h3>
+                <form id="add-project-form">
+                    <input type="text" id="project-title" placeholder="Project Title" required>
+                    <input type="text" id="project-desc" placeholder="Project Description" required>
+                    <input type="url" id="project-link" placeholder="Project Link" required>
+                    <button type="submit">Add Project</button>
+                </form>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>python</li>
+                <li>java</li>
+            </ul>
+        </section>
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul class="education-list">
+                <li>
+                    <strong>Bachelor of Technology in Artificial Intelligence & Machine Learning</strong><br>
+                    <a href="https://www.gniindia.org/" target="_blank">Guru Nanak Institute of Technology</a>, Hyderabad<br>
+                    2023 - 2027
+                </li>
+                <!-- Add more education entries as needed -->
+            </ul>
+        </section>
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul class="certifications-list">
+                <li>
+                    <strong>Python for Everybody</strong> – Coursera, 2025
+                </li>
+                <li>
+                    <strong>AL-ML virtual internship</strong> – Edusills, 2025
+                </li>
+                <li>
+                    <strong>Python fullstack developer</strong> – Edusills, 2024
+                </li>
+                <li>
+                    <strong>Java mastering the fundamentals</strong> – scalar, 2025
+                </li>
+                <!-- Add more certifications as needed -->
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 [HAREESH]. All rights reserved.</p>
+    </footer>
+    <script src="protfolio.js"></script>
+</body>
+</html>
