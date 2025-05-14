@@ -11,7 +11,7 @@ const projects = [
     {
         title: 'Personal Website',
         description: 'A modern, responsive personal website built with HTML, CSS, and JavaScript.',
-        link: '#'
+        link: 'https://github.com/HAREESSHP/protfolio-hareesh.git'
     },
     {
         title: 'Weather App',
