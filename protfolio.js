@@ -52,10 +52,16 @@ if (projectsContainer) {
 
 // Contact form submission (demo only)
 const contactForm = document.getElementById('contact-form');
+const contactSuccess = document.getElementById('contact-success');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        alert('Thank you for reaching out! I will get back to you soon.');
+        if (contactSuccess) {
+            contactSuccess.style.display = 'block';
+            setTimeout(() => {
+                contactSuccess.style.display = 'none';
+            }, 4000);
+        }
         contactForm.reset();
     });
 }
