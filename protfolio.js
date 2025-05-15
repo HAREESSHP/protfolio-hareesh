@@ -30,7 +30,7 @@ const projects = [
     },
     {
         title: 'Comparision Chatbox',
-        description: 'A chatbox project for comparing different items or data, built as part of my portfolio projects.',
+        description: 'A chatbox project for comparing different electronic items, it uses the serper api key to fetch infromaion from online.',
         link: 'https://github.com/HAREESSHP/comparision-chatbot.git'
     }
 ];
