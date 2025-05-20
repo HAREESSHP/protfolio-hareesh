@@ -21,7 +21,7 @@ const projects = [
     {
         title: 'Number Base Converter',
         description: 'Converts numbers from one base to another (Decimal, Binary, Hexadecimal)',
-        link: 'https://github.com/HAREESSHP/number-base-converter.git'
+        link: 'https://hareesshp.github.io/Number-base-converter/'
     },
     {
         title: 'Voice Assistant Object Detection',
